@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ITarefa } from '../../types/tarefa';
-import Botao from '../Botao';
+import Button from '../Button';
 import style from './Formulario.module.scss';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -61,9 +61,9 @@ function Formulario({ setTarefas }: Props) {
           required
         />
       </div>
-      <Botao type="submit">
+      <Button type="submit">
         Adicionar
-      </Botao>
+      </Button>
     </form>
   )
 }
