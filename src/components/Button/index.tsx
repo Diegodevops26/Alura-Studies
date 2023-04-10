@@ -12,7 +12,7 @@ function Button({ onClick, type, children }: Props) {
     <button
       onClick={onClick}
       type={type}
-      className={style.botao}
+      className={style.button}
     >
       {children}
     </button>
